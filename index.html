@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Arms Control Watch — Open-Source Arms Transfers Map (2000–2024)</title>
+  <meta name="description" content="Interactive visualization of international arms transfers (2000–2024) with SIPRI TIV explanation and interpretation guidance."/>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- Privacy-friendly analytics (optional): Plausible -->
+<!-- Replace YOURDOMAIN with armscontrolwatch.org and uncomment once you set up Plausible -->
+<!-- <script defer data-domain="YOURDOMAIN" src="https://plausible.io/js/script.js"></script> -->
+</head>
+
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="index.html" aria-label="The Arms Control Watch Home" style="display:flex;">
+        <span style="display:inline-flex; align-items:center;"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" aria-label="The Arms Control Watch logo">
+  <rect x="1" y="1" width="26" height="26" rx="7" fill="#111"/>
+  <path d="M8 18c3-7 9-7 12 0" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M10 12h8" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
+</svg>
+</span>
+        <div style="margin-left:10px;">
+          <strong>The Arms Control Watch</strong><br/>
+          <span class="tag">Open-source arms transfers project</span>
+        </div>
+      </a>
+      <div class="navlinks">
+        <a href="index.html">About</a>
+        <a href="map.html">Map</a>
+        <a href="downloads.html">Downloads</a>
+        <a href="updates.html">Updates</a>
+        <a class="btn primary" href="map.html">Open the Map</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Open-Source Arms Transfers Map (2000–2024)</h1>
+  <p class="small">A public-interest research tool for exploring global arms transfer trends over time.</p>
+
+  <div class="grid">
+    <div class="card span-7">
+      <h2>What this is</h2>
+      <p>This website provides an interactive world map for exploring arms transfer flows by year. You can view a selected country as an <strong>exporter</strong>, <strong>importer</strong>, or <strong>both</strong>, then drill down into partners and systems.</p>
+      <div class="notice">
+        <strong>Important:</strong> Values represent SIPRI <em>Trend-Indicator Values (TIV)</em>—a standardized indicator of transfer volume, not a financial price.
+      </div>
+      <div style="margin-top:14px; display:flex; gap:12px; flex-wrap:wrap;">
+        <a class="btn primary" href="map.html">Launch Interactive Map</a>
+        <a class="btn" href="downloads.html">Downloads & citation</a>
+      </div>
+      <div class="pills">
+        <span class="pill">2000–2024</span>
+        <span class="pill">Exporter / Importer modes</span>
+        <span class="pill">Client-side (no backend)</span>
+      </div>
+    </div>
+
+    <div class="card span-5">
+      <h2>Interpretation guide</h2>
+      <ul class="list-tight">
+        <li><strong>As exporter</strong> shows flows <em>from</em> the selected country.</li>
+        <li><strong>As importer</strong> shows flows <em>to</em> the selected country.</li>
+        <li><strong>Both</strong> shows all flows involving the selected country.</li>
+      </ul>
+      <hr/>
+      <p class="small">
+        Full methodology: <a href="https://www.sipri.org/databases/armstransfers/sources-and-methods" target="_blank" rel="noopener">SIPRI: Sources &amp; Methods</a>
+      </p>
+    </div>
+  </div>
+
+  <h2>Contact</h2>
+  <div class="card">
+    <p><strong>Rowan Seipp</strong> · The Arms Control Watch</p>
+    <p>Email: <a href="mailto:armscontrolwatch@gmail.com">armscontrolwatch@gmail.com</a></p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="small">
+      Published by <strong>The Arms Control Watch</strong> · Project lead: Rowan Seipp · Contact: <a href="mailto:armscontrolwatch@gmail.com">armscontrolwatch@gmail.com</a><br/>
+      Values are SIPRI Trend-Indicator Values (TIV). Interpret as trend indicators, not prices. Methodology: <a href="https://www.sipri.org/databases/armstransfers/sources-and-methods" target="_blank" rel="noopener">SIPRI Sources & Methods</a>.
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

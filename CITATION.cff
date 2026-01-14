@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "Open-Source Arms Transfers Map (2000–2024)"
+type: software
+authors:
+  - family-names: "Seipp"
+    given-names: "Rowan"
+    affiliation: "The Arms Control Watch"
+contact:
+  - email: "armscontrolwatch@gmail.com"
+abstract: "A fully client-side interactive Leaflet map for exploring international arms transfers from 2000–2024 using SIPRI Trend-Indicator Values (TIV)."
+keywords:
+  - "arms transfers"
+  - "security studies"
+  - "international relations"
+  - "data visualization"
+license: "MIT"
+repository-code: ""
+url: ""
